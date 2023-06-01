@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #002233;
+    /* background-image: url(restaurant.png); */
+}
+.layout {
+    text-align: center;
+}
+.container {
+    background-image: url(kisspng-reading-and-writing-the-arabic-alphabet-letter-ara-5b09761b8f98b3.5277123415273467155882.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+}
+.gambar {
+    text-align: center;
+}
+.content {
+    background-color:(#002233);
+    padding-top: 10px;
+    transform: translateY(-50%);
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px 10px;
+    width: 51%;
+    margin-top: 700px;
+    margin-left: 145px;
+}
+h1 {
+    
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #00bfff, 0 0 5px rgb(0, 0, 61);
+    
+}
+h3 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px black, 0 0 25px #297EA6, 0 0 5px #297EA6;
+}
+.navbar{
+    background-color: #297EA6;
+    width: 80%;  
+    height: 50px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+.wrapper {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    background: linear-gradient(to right,rgba(0, 255, 166, 0.694),rgb(0, 191, 255));
+    font-family: courier;
+    text-align: center;
+    justify-content: center;
+    margin-left: 145px;
+    margin-top: -5px;
+    border: 2px solid black;
+}
+nav {
+    width: 77%;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    margin-bottom: 2px;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    padding-left: 160px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#sidebar {
+    padding: 5px;
+    width: 27%;
+    background-color: #297EA6;
+    float: right;
+    border-style: dotted;
+    border-width: 1px;
+    margin-right: 145px;
+    margin-top: -143%;
+    padding-bottom: 920px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.widged {
+    width: 99%;
+    background: #ffffff;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    font-size: 100%;
+    margin: 0px 0px 5px 0px;
+    height: 100%;
+    text-align: center;
+    
+}
+.gambar {
+    width: 50%;
+    height: 200px;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.judulwidged {
+    background:linear-gradient(to right,rgba(0, 255, 166, 0.694),rgb(0, 191, 255));
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* .zz {
+    background-color: #297EA6;
+} */
+
+input {
+    width: 300px;
+    margin-left: 0px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 3px;
+}
+.siteks {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #297EA6;
+}
+footer {
+    background: black;
+    color: #297EA6;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    margin-top: -44%;
+    margin-left: 130px;
+    box-shadow: 10px 10px;
+}
+
+footer p {
+    color: rgb(0, 191, 255);
+}
